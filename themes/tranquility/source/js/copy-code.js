@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   const getCopyButton = () => {
     const button = document.createElement("div")
-    button.innerHTML = `复制代码`
+    button.innerHTML = `Cpoy`
     button.className = 'copy-button'
     return button
   }
@@ -14,12 +14,12 @@ document.addEventListener('DOMContentLoaded', () => {
       try {
         const code = codeBlock.querySelector('code').innerText
         navigator.clipboard.writeText(code);
-        copyButton.innerText = '已复制!'
+        copyButton.innerText = 'Copied!'
       } catch {
-        copyButton.innerText = '发生错误'
+        copyButton.innerText = 'False'
       } finally {
         setTimeout(() => {
-          copyButton.innerText = '复制代码'
+          copyButton.innerText = 'Copy'
         }, 1000)
       }
     }
