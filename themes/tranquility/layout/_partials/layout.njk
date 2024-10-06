@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh-cn">
+<html lang="zh-TW">
   <head>
     <meta charset="utf8" />
     <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -84,9 +84,9 @@
                 <a class="nav-menu-item" href="{{ url_for(nav.path or nav.name) }}">{{ nav.title }}</a>
               {% endfor %}
             {% else %}
-              <a class="nav-menu-item" href='{{ url_for("/blog/") }}'>博客</a>
+              <a class="nav-menu-item" href='{{ url_for("/blog/") }}'>Blog</a>
             {% endif %}
-            {% if theme.cv.enable and theme.cv.showInNav %}<a class="nav-menu-item" href='{{ url_for("/cv/") }}'>简历</a>{% endif %}
+            {% if theme.cv.enable and theme.cv.showInNav %}<a class="nav-menu-item" href='{{ url_for("/cv/") }}'>關於</a>{% endif %}
           </div>
         </div>
         <label class="nav-btn" for="navBtn"></label>

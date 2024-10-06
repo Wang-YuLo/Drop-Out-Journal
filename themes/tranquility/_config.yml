@@ -155,11 +155,11 @@ mermaid:
 
 cv:
   enable: true
-  showInNav: true
+  showInNav: flase
   iconPrefix: fas
-  keywords: 简历,李白
-  description: 李白的简历
-  title: 李白的简历
+  keywords: 關於、休學
+  description: 休學
+  title: 關於
   content:
     title: Hang Wu
     baseInfo:
