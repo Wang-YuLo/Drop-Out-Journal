@@ -29,7 +29,7 @@ function blog(locals) {
     layout: ['category'],
     format: paginationDir + '/%d/',
     data: {
-      name: '博客',
+      name: 'Blog',
       icon: 'blog'
     }
   });
