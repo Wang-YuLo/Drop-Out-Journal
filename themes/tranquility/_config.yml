@@ -1,4 +1,4 @@
-slogan: “挑戰極限”
+slogan: 休學日誌
 email: job7160@gmail.com
 logo: "/images/logo.svg"
 
@@ -23,6 +23,12 @@ subpage: # 开启“子页”功能，详见 README
       title: 週報 # 菜单名，如 开发者
       icon: /images/icon/icon-pi.svg # 图标的路径
       description: 每週成果展演 # 描述
+    - name: 專題
+      path: Project
+      title: 專題
+    - name: 筆記
+      path: Note
+      title: 筆記
 
 index: # 配置首页个性化内容
   motto: "长风破浪会有时！"
@@ -31,18 +37,14 @@ index: # 配置首页个性化内容
     - 朝如青丝暮成雪
   photo: /images/about.jpg
   about:
-    title: 关于
+    title: 關於
     text:
-      - 酒入豪肠,七分酿成了月光
-      -
-      - 余下的三分啸成剑气
-      -
-      - 绣口一吐就半个盛唐
+      - 大學想出國沒能離開；進了臺大又適應不良。
+      - 三拖四請遲遲畢不了業，所幸休學闖闖世界。
 
 foot:
   title:
-    - "海内存知己"
-    - "天涯若比邻"
+    - "聯絡資訊"
   linksRows: 4
 
 links: # 朋友
@@ -89,7 +91,7 @@ gitalk: # gitalk 评论
   # Gitalk's display language depends on user's browser or system environment
   # If you want everyone visiting your site to see a uniform language, you can set a force language value
   # Available values: en | es-ES | fr | ru | zh-CN | zh-TW
-  language: zh-CN
+  language: zh-TW
 
 # see https://github.com/tea3/hexo-related-popular-posts
 related_post:
