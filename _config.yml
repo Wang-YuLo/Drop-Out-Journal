@@ -7,14 +7,14 @@ title: Drop Out Journal
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
-language: en
+author: Hang Wu
+language: ['zh-tw', 'en']
 timezone: ''
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
 url: https://drop-out-journal.netlify.app/
-permalink: :year/:month/:day/:title/
+permalink: :lang/:category/:post_title/
 permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -102,4 +102,6 @@ color_mode: classic
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
-  type: ''
+  type: git
+  repo: https://github.com/Wang-YuLo/Drop-Out-Journal.git
+  branch: master
