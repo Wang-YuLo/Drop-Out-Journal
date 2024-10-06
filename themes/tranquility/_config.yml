@@ -13,20 +13,20 @@ favicon: # 配置网页图标
 subpage: # 开启“子页”功能，详见 README
   enable: true
   pages:
-    - name: 日誌 # 文章的分类（category）名，如 developer
+    - name: Day # 文章的分类（category）名，如 developer
       path: Day # 若不设置则默认使用 name
       title: 日誌 # 菜单名，如 开发者
       icon: /images/icon/icon-code.svg # 图标的路径
       description: 每日流水紀錄 # 描述
-    - name: 週報 # 文章的分类（category）名，如 developer
+    - name: Week # 文章的分类（category）名，如 developer
       path: Week # 若不设置则默认使用 name
       title: 週報 # 菜单名，如 开发者
       icon: /images/icon/icon-pi.svg # 图标的路径
       description: 每週成果展演 # 描述
-    - name: 專題
+    - name: Project
       path: Project
       title: 專題
-    - name: 筆記
+    - name: Note
       path: Note
       title: 筆記
 
@@ -146,13 +146,13 @@ cv:
       - title: 經歷
         icon: laptop-code
         sections:
-          contents:
-            - 2020 進入臺大就讀森林環境暨資源學系
-            - 2021 培力園實習
-            - 2022 雙主修校學士（機器學習、資訊安全、物聯網、婦女學程）
-            - 2023 土耳其交換
-            - 2024 共同創立米香咖啡線上免費直播解題、Youtube平台
-            - 2024 休學
+          - contents:
+              - 2020 進入臺大就讀森林環境暨資源學系
+              - 2021 培力園實習
+              - 2022 雙主修校學士（機器學習、資訊安全、物聯網、婦女學程）
+              - 2023 土耳其交換
+              - 2024 共同創立米香咖啡線上免費直播解題、Youtube平台
+              - 2024 休學
 
 search:
   path: search.json
